@@ -43,7 +43,7 @@ class CurrentLocation extends React.Component {
                                 <Text style ={styles.text}>CANCEL</Text>
                         </TouchableOpacity>
                         <TouchableOpacity 
-                            onPress = {()=>this.props.setCurrentLocation()}
+                            onPress = {()=>this.props.setModalVisible(false)}
                             style={styles.button}>
                                 <Text style ={styles.text}>CONFIRM</Text>
                         </TouchableOpacity>
